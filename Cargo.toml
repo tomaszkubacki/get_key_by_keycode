@@ -1,0 +1,8 @@
+[package]
+name = "get_key_by_keycode"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+xkbcommon = { version = "0.9", features = ["wayland"] }
+evdev = "0.13.1"
